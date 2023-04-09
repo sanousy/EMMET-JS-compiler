@@ -15,3 +15,6 @@ or
   
   
 let html = EMMET.parse( \`div.class#id[Style="color:red"]+p{Hello this is the new era of EMMET}\`);
+
+  Remark: this compiler does not support number of repitittion because it targets storing real examples no need for generic instructions.
+  If you think generic ( i.e 3il>p hello) is required please tell me why.
