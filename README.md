@@ -8,10 +8,10 @@ and you can use it in 2 ways:
 ### Append directly
 You can create HTML elements and append them directly to document body or another existing DOM Element:
   
-EMMET.apped (DOMElement, `div.class#id[Style="color:red"]+p{Hello this is the new era of EMMET}`);
+EMMET.apped (DOMElement, \`div.class#id[Style="color:red"]+p{Hello this is the new era of EMMET}\`);
 or
   
 ### Create Html using parser
   
   
-let html = EMMET.parse( `div.class#id[Style="color:red"]+p{Hello this is the new era of EMMET}`);
+let html = EMMET.parse( \`div.class#id[Style="color:red"]+p{Hello this is the new era of EMMET}\`);
